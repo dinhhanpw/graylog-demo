@@ -14,6 +14,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
     <PackageReference Include="Serilog.Sinks.Graylog" Version="2.3.0" />
+    <PackageReference Include="Gelf.Extensions.Logging" Version="2.6.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Graylog Setup\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Graylog Setup\" />
+  </ItemGroup>
 </Project>
